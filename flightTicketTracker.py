@@ -35,94 +35,88 @@ flight_info = {
     # },
 
     #疫情原因 已经停运 
-    '国航： CA124 ICN-TAO 周五': {
+    # '国航： CA124 ICN-TAO 周五': {
+    #
+    #     'search_dates': ['2020-08-14', '2020-08-21', '2020-08-28', '2020-09-4', '2020-09-11', '2020-09-18'],
+    #     'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=ICN.TAO.2020-08-14;c:TWD;e:1;a:CA;sd:1;t:f;tt:o'
+    # },
 
-        'search_dates': ['2020-08-14', '2020-08-21', '2020-08-28', '2020-09-4', '2020-09-11', '2020-09-18'],
-        'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=ICN.TAO.2020-08-14;c:TWD;e:1;a:CA;sd:1;t:f;tt:o'
-    },
+    # '南航： CZ682 ICN-SHE 周日': {
+    #
+    #     'search_dates': ['2020-08-16', '2020-08-23', '2020-08-30', '2020-09-6', '2020-09-13', '2020-09-20'],
+    #     'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=ICN.SHE.2020-06-13.ICNSHE0CZ682;c:TWD;e:1;a:CZ;sd:1;t:b;tt:o;sp:0.TWD.8867'
+    # },
 
-    '南航： CZ682 ICN-SHE 周日': {
-
-        'search_dates': ['2020-08-16', '2020-08-23', '2020-08-30', '2020-09-6', '2020-09-13', '2020-09-20'],
-        'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=ICN.SHE.2020-06-13.ICNSHE0CZ682;c:TWD;e:1;a:CZ;sd:1;t:b;tt:o;sp:0.TWD.8867'
-    },
-
-    #疫情原因 已经停运
-    '厦航：MF872 ICN-XMN 周一': {
-
-        'search_dates': ['2020-08-17', '2020-08-24', '2020-08-31', '2020-09-7', '2020-09-14', '2020-09-21'],
-        'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=ICN.XMN.2020-09-28;c:TWD;e:1;a:MF;sd:1;t:f;tt:o'
-    },
+    # #疫情原因 已经停运
+    # '厦航：MF872 ICN-XMN 周一': {
+    #
+    #     'search_dates': ['2020-08-17', '2020-08-24', '2020-08-31', '2020-09-7', '2020-09-14', '2020-09-21', '2020-09-28', '2020-10-5'],
+    #     'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=ICN.XMN.2020-09-28;c:TWD;e:1;a:MF;sd:1;t:f;tt:o'
+    # },
 
     '山东航空： SC4088 ICN-TAO 周五': {
 
-        'search_dates': ['2020-08-14', '2020-08-21', '2020-08-28', '2020-09-4', '2020-09-11', '2020-09-18'],
+        'search_dates': ['2020-08-14', '2020-08-21', '2020-08-28', '2020-09-4', '2020-09-11', '2020-09-18', '2020-09-25', '2020-10-2', '2020-10-2'],
         'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=ICN.TAO.2020-12-19.ICNTAO0SC4088;c:TWD;e:1;a:SC;sd:1;t:b;tt:o;sp:0.TWD.9707'
     },
 
-    '青岛航空：QW9902 ICN-TAO 周六': {
-
-        'search_dates': ['2020-08-15', '2020-08-22', '2020-08-29', '2020-09-5', '2020-09-12', '2020-09-19'],
-        'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=ICN.TAO.2020-08-29.ICNTAO0QW9902;c:TWD;e:1;a:QW;sd:1;t:b;tt:o;sp:.TWD.'
-    },
+    # '青岛航空：QW9902 ICN-TAO 周六': {
+    #
+    #     'search_dates': ['2020-08-15', '2020-08-22', '2020-08-29', '2020-09-5', '2020-09-12', '2020-09-19'],
+    #     'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=ICN.TAO.2020-08-29.ICNTAO0QW9902;c:TWD;e:1;a:QW;sd:1;t:b;tt:o;sp:.TWD.'
+    # },
 
     '大韩： KE832 ICN-SHE 周五': {
 
-        'search_dates': ['2020-08-14', '2020-08-21', '2020-08-28', '2020-09-4', '2020-09-11', '2020-09-18'],
+        'search_dates': ['2020-08-14', '2020-08-21', '2020-08-28', '2020-09-4', '2020-09-11', '2020-09-18', '2020-09-25', '2020-10-2'],
         'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=ICN.SHE.2020-05-04.ICNSHE0KE832;c:TWD;e:1;a:KE;sd:1;t:b;tt:o;sp:0.TWD.8059'
     },
 
     '韩亚：OZ303 ICN-CGQ 周日': {
 
-        'search_dates': ['2020-08-16', '2020-08-23', '2020-08-30', '2020-09-6', '2020-09-13', '2020-09-20'],
+        'search_dates': ['2020-08-16', '2020-08-23', '2020-08-30', '2020-09-6', '2020-09-13', '2020-09-20', '2020-09-27', '2020-10-4'],
         'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=ICN.CGQ.2020-04-11.ICNCGQ0OZ303;c:TWD;e:1;a:OZ;sd:1;t:b;tt:o;sp:0.TWD.6084'
     },
 
-    '国航CA930 NRT-PVG 周四': {
+    # '国航CA930 NRT-PVG 周四': {
+    #
+    #     'search_dates': ['2020-08-13', '2020-08-20', '2020-08-27', '2020-09-3', '2020-09-10', '2020-09-17'],
+    #     'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=NRT.PVG.2020-05-18;c:TWD;e:1;a:CA;sd:1;t:f;tt:o'
+    # },
 
-        'search_dates': ['2020-08-13', '2020-08-20', '2020-08-27', '2020-09-3', '2020-09-10', '2020-09-17'],
-        'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=NRT.PVG.2020-05-18;c:TWD;e:1;a:CA;sd:1;t:f;tt:o'
-    },
+    # '厦航 MF810 NRT-FOC 周五': {
+    #
+    #     'search_dates': ['2020-08-14', '2020-08-21', '2020-08-28', '2020-09-4', '2020-09-11', '2020-09-18', '2020-09-25', '2020-10-2'],
+    #     'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=NRT.FOC.2020-08-17.NRTFOC0MF810;c:TWD;e:1;a:MF;sd:1;t:b;tt:o;sp:0.TWD.78589'
+    # },
 
-    '厦航 MF810 NRT-FOC 周五': {
-
-        'search_dates': ['2020-08-14', '2020-08-21', '2020-08-28', '2020-09-4', '2020-09-11', '2020-09-18'],
-        'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=NRT.FOC.2020-08-17.NRTFOC0MF810;c:TWD;e:1;a:MF;sd:1;t:b;tt:o;sp:0.TWD.78589'
-    },
-
-    '厦航 MF810 NRT-FOC 周五': {
-
-        'search_dates': ['2020-08-14', '2020-08-21', '2020-08-28', '2020-09-4', '2020-09-11', '2020-09-18'],
-        'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=NRT.FOC.2020-08-17.NRTFOC0MF810;c:TWD;e:1;a:MF;sd:1;t:b;tt:o;sp:0.TWD.78589'
-    },
-
-    '东航 MU524 NRT-PVG 周五': {
-
-        'search_dates': ['2020-08-14', '2020-08-21', '2020-08-28', '2020-09-4', '2020-09-11', '2020-09-18'],
-        'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=NRT.PVG.2020-12-18.NRTPVG0MU524;c:TWD;e:1;a:MU;sd:1;t:b;tt:o;sp:.TWD.'
-    },
+    # '东航 MU524 NRT-PVG 周五': {
+    #
+    #     'search_dates': ['2020-08-14', '2020-08-21', '2020-08-28', '2020-09-4', '2020-09-11', '2020-09-18'],
+    #     'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=NRT.PVG.2020-12-18.NRTPVG0MU524;c:TWD;e:1;a:MU;sd:1;t:b;tt:o;sp:.TWD.'
+    # },
 
     '南航 CZ628 NRT-SHE 周四': {
 
-        'search_dates': ['2020-08-13', '2020-08-20', '2020-08-27', '2020-09-3', '2020-09-10', '2020-09-17'],
+        'search_dates': ['2020-08-13', '2020-08-20', '2020-08-27', '2020-09-3', '2020-09-10', '2020-09-17', '2020-09-24', '2020-10-1', '2020-10-8'],
         'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=NRT.SHE.2020-12-17.NRTSHE0CZ628;c:TWD;e:1;a:CZ;sd:1;t:b;tt:o;sp:0.TWD.47150'
     },
 
-    '上航 FM886 KUL-PVG 周日': {
-
-        'search_dates': ['2020-08-16', '2020-08-23', '2020-08-30', '2020-09-6', '2020-09-13', '2020-09-20'],
-        'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=KUL.PVG.2020-12-20.KULPVG0FM886;c:TWD;e:1;a:FM;sd:1;t:b;tt:o;sp:0.TWD.23588'
-    },
+    # '上航 FM886 KUL-PVG 周日': {
+    #
+    #     'search_dates': ['2020-08-16', '2020-08-23', '2020-08-30', '2020-09-6', '2020-09-13', '2020-09-20'],
+    #     'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=KUL.PVG.2020-12-20.KULPVG0FM886;c:TWD;e:1;a:FM;sd:1;t:b;tt:o;sp:0.TWD.23588'
+    # },
 
     '南航 CZ350 KUL-CAN 周二': {
 
-        'search_dates': ['2020-08-11','2020-08-18', '2020-08-25', '2020-09-1', '2020-09-8', '2020-09-15', '2020-09-22'],
+        'search_dates': ['2020-08-11','2020-08-18', '2020-08-25', '2020-09-1', '2020-09-8', '2020-09-15', '2020-09-22', '2020-09-29', '2020-10-6'],
         'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=KUL.PVG.2020-12-20.KULPVG0FM886;c:TWD;e:1;a:FM;sd:1;t:b;tt:o;sp:0.TWD.23588'
     },
 
     '南航 CZ348 CDG-CAN 周二': {
 
-        'search_dates': ['2020-08-11', '2020-08-18', '2020-08-25', '2020-09-1', '2020-09-8', '2020-09-15','2020-09-22'],
+        'search_dates': ['2020-08-11', '2020-08-18', '2020-08-25', '2020-09-1', '2020-09-8', '2020-09-15','2020-09-22', '2020-09-29', '2020-10-6'],
         'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=KUL.CAN.2020-12-22.KULCAN0CZ348;c:TWD;e:1;a:CZ;sd:1;t:b;tt:o;sp:0.TWD.33734'
     },
 
@@ -130,74 +124,74 @@ flight_info = {
     # 疫情原因 已经停运
     '国航 CA934 CDG-TSN 周三': {
 
-        'search_dates': ['2020-08-12', '2020-08-19', '2020-08-26', '2020-09-2', '2020-09-9', '2020-09-16','2020-09-23'],
+        'search_dates': ['2020-08-12', '2020-08-19', '2020-08-26', '2020-09-2', '2020-09-9', '2020-09-16','2020-09-23','2020-09-30','2020-09-7'],
         'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=CDG.TSN.2020-03-17;c:TWD;e:1;a:CA;sd:1;t:f;tt:o'
     },
 
-    '东航 MU772 AMS-PVG 周一': {
+    # '东航 MU772 AMS-PVG 周一': {
+    #
+    #     'search_dates': ['2020-08-17', '2020-08-24', '2020-08-31', '2020-09-7', '2020-09-14', '2020-09-21'],
+    #     'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=AMS.PVG.2020-03-15.AMSPVG0MU772;c:TWD;e:1;a:MU;sd:1;t:b;tt:o;sp:.TWD.'
+    # },
 
-        'search_dates': ['2020-08-17', '2020-08-24', '2020-08-31', '2020-09-7', '2020-09-14', '2020-09-21'],
-        'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=AMS.PVG.2020-03-15.AMSPVG0MU772;c:TWD;e:1;a:MU;sd:1;t:b;tt:o;sp:.TWD.'
-    },
-
-    '南航 CZ308 AMS-CAN 周五': {
-
-        'search_dates': ['2020-08-14', '2020-08-21', '2020-08-28', '2020-09-4', '2020-09-11', '2020-09-18'],
-        'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=AMS.CAN.2020-03-19.AMSCAN0CZ308;c:TWD;e:1;a:CZ;sd:1;t:b;tt:o;sp:0.TWD.64958'
-    },
+    # '南航 CZ308 AMS-CAN 周五': {
+    #
+    #     'search_dates': ['2020-08-14', '2020-08-21', '2020-08-28', '2020-09-4', '2020-09-11', '2020-09-18'],
+    #     'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=AMS.CAN.2020-03-19.AMSCAN0CZ308;c:TWD;e:1;a:CZ;sd:1;t:b;tt:o;sp:0.TWD.64958'
+    # },
 
 
 
     '厦航 MF812 AMS-XMN 周三': {
 
-        'search_dates': ['2020-08-12', '2020-08-19', '2020-08-26', '2020-09-2', '2020-09-9', '2020-09-16','2020-09-23'],
+        'search_dates': ['2020-08-12', '2020-08-19', '2020-08-26', '2020-09-2', '2020-09-9', '2020-09-16','2020-09-23','2020-09-30','2020-10-7'],
         'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=AMS.XMN.2020-03-17.AMSPEK0KL897~PKXXMN1MF812;c:TWD;e:1;a:MF;sd:1;t:b;tt:o;sp:0.TWD.31881'
     },
 
     '厦航 MF812 AMS-XMN 周三': {
 
-        'search_dates': ['2020-08-12', '2020-08-19', '2020-08-26', '2020-09-2', '2020-09-9', '2020-09-16','2020-09-23'],
+        'search_dates': ['2020-08-12', '2020-08-19', '2020-08-26', '2020-09-2', '2020-09-9', '2020-09-16','2020-09-23','2020-09-30','2020-10-7'],
         'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=AMS.XMN.2020-10-28.AMSPEK0KL897~PKXXMN1MF812;c:TWD;e:1;a:MF;sd:1;t:b;tt:o;sp:0.TWD.37072'
     },
 
-    '东航 MU220 FRA-PVG 周二': {
+    # '东航 MU220 FRA-PVG 周二': {
+    #
+    #     'search_dates': ['2020-08-11', '2020-08-18', '2020-08-25', '2020-09-1', '2020-09-8', '2020-09-15','2020-09-22'],
+    #     'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=FRA.PVG.2020-10-28.FRAPVG0MU220;c:TWD;e:1;a:MU;sd:1;t:b;tt:o;sp:.TWD.'
+    # },
 
-        'search_dates': ['2020-08-11', '2020-08-18', '2020-08-25', '2020-09-1', '2020-09-8', '2020-09-15','2020-09-22'],
-        'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=FRA.PVG.2020-10-28.FRAPVG0MU220;c:TWD;e:1;a:MU;sd:1;t:b;tt:o;sp:.TWD.'
-    },
-
-    '东航 MU570 CDG-PVG 周日': {
-
-        'search_dates': ['2020-08-16', '2020-08-23', '2020-08-30', '2020-09-6', '2020-09-13', '2020-09-20'],
-        'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=CDG.PVG.2020-03-14.CDGPVG0MU570;c:TWD;e:1;a:MU;sd:1;t:b;tt:o;sp:.TWD.'
-    },
+    # '东航 MU570 CDG-PVG 周日': {
+    #
+    #     'search_dates': ['2020-08-16', '2020-08-23', '2020-08-30', '2020-09-6', '2020-09-13', '2020-09-20'],
+    #     'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=CDG.PVG.2020-03-14.CDGPVG0MU570;c:TWD;e:1;a:MU;sd:1;t:b;tt:o;sp:.TWD.'
+    # },
 
 
     # 疫情原因 已经停运
     '国航 CA936 FRA-PVG 周六': {
 
-        'search_dates': ['2020-08-15', '2020-08-22', '2020-08-29', '2020-09-5', '2020-09-12', '2020-09-19'],
+        'search_dates': ['2020-08-15', '2020-08-22', '2020-08-29', '2020-09-5', '2020-09-12', '2020-09-19', '2020-09-26', '2020-10-3'],
         'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=FRA.PVG.2020-08-08;c:TWD;e:1;a:CA;sd:1;t:f;tt:o'
     },
 
     # 疫情原因 已经停运
     '国航 CA908 MAD-TSN 周六': {
 
-        'search_dates': ['2020-08-15', '2020-08-22', '2020-08-29', '2020-09-5', '2020-09-12', '2020-09-19'],
+        'search_dates': ['2020-08-15', '2020-08-22', '2020-08-29', '2020-09-5', '2020-09-12', '2020-09-19', '2020-09-26', '2020-10-3'],
         'base_url': 'https://www.google.com.hk/flights?gl=tw#flt=MAD.TSN.2020-06-05;c:TWD;e:1;a:CA;sd:1;t:f;tt:o'
     },
 
 
     'Delta DL287 SEA-PVG 周四': {
 
-        'search_dates': ['2020-08-13', '2020-08-20', '2020-08-27', '2020-09-3', '2020-09-10', '2020-09-17'],
+        'search_dates': ['2020-08-13', '2020-08-20', '2020-08-27', '2020-09-3', '2020-09-10', '2020-09-17', '2020-09-24', '2020-10-1', '2020-10-8'],
         'base_url': 'https://www.google.com.hk/flights?hl=en&gl=am#flt=SEA.PVG.2020-11-27.SEAPVG0DL287;c:USD;e:1;s:0;a:DL;sd:1;t:b;tt:o;sp:2.USD.536510'
     },
 
 
     'Dleta DL283 DTW-PVG 周五': {
 
-        'search_dates': ['2020-08-14', '2020-08-21', '2020-08-28', '2020-09-4', '2020-09-11', '2020-09-18'],
+        'search_dates': ['2020-08-14', '2020-08-21', '2020-08-28', '2020-09-4', '2020-09-11', '2020-09-18', '2020-09-25', '2020-10-2', '2020-010-9'],
         'base_url': 'https://www.google.com.hk/flights?hl=en&gl=am#flt=SEA.PVG.2020-11-27.SEAPVG0DL283;c:USD;e:1;s:0;a:DL;sd:1;t:b;tt:o;sp:2.USD.536510'
     },
 
@@ -208,6 +202,12 @@ flight_info = {
         'base_url':'https://www.google.com.hk/flights?hl=en&gl=am#flt=SFO.PVG.2020-11-26.SFOPVG0UA857;c:USD;e:1;s:0;sd:1;t:b;tt:o;sp:2.USD.706410'
     },
 
+    '济州航空 7C8501 ICN-WEH 周三': {
+
+        'search_dates': ['2020-08-12', '2020-08-19', '2020-08-26', '2020-09-2', '2020-09-9', '2020-09-16','2020-09-23','2020-09-30','2020-10-7'],
+
+        'base_url': 'https://www.google.com.hk/flights#flt=ICN.WEH.2020-10-14;c:HKD;e:1;a:7C;sd:1;t:f;tt:o',
+    },
 
 
 }
